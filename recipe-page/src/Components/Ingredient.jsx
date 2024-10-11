@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="w-full py-5   flex flex-col justify-center items-start border-b-2 border-b-RoseWhite md:pb-16">
+    <div className="w-full py-5 sm:py-8 md:py-4   flex flex-col justify-center items-start border-b-2 border-b-RoseWhite md:pb-16">
       <h2 className="font-bold text-3xl py-4 text-Nutmeg font-young md:text-4xl xl:text-5xl">
         Ingredients
       </h2>

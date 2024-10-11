@@ -8,15 +8,15 @@ import "./index.css";
 
 export default function App() {
   return (
-    <div>
-      <div className="p-10 xl:p-16">
+    <div className=" bg-Eggshell sm:py-10 md:px-20 md:pt-15 lg:px-48 lg:pt-28 xl:px-80 2xl:px-96 mt-128">
+      <div className="sm:p-10 xl:p-16 bg-white    sm:rounded-t-3xl">
         <img
-          className="w-full lg:rounded-2xl"
+          className="w-full sm:rounded-3xl"
           src="/image-omelette.jpeg"
           alt=""
         />
       </div>
-      <div className="w-full overflow-hidden flex flex-col justify-center items-center px-10 relative sm:bg-red-500 md:bg-blue-600 lg:bg-orange-500 xl:bg-slate-600 xl:px-16">
+      <div className="w-full overflow-hidden flex flex-col justify-center items-center px-10 relative bg-white sm:pb-10 sm:rounded-b-3xl xl:px-16">
         <Header />
         <Prep />
         <Ingredient />

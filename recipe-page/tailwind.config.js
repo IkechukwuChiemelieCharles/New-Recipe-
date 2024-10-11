@@ -6,10 +6,10 @@ export default {
     extend: {
       width: {
         120: "26rem",
-        128: "32rem", // Custom size for width
-        130: "34rem", // Custom size for width
-        144: "36rem", // Another custom size
-        // Add more custom sizes as needed
+        128: "32rem",
+        130: "34rem",
+        144: "36rem",
+        148: "40rem",
       },
       colors: {
         Nutmeg: "hsl(14, 45%, 36%)",

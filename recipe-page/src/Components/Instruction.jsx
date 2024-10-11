@@ -1,12 +1,22 @@
 import React from "react";
+/* RoseWhite: "hsl(330, 100%, 98%)",
+Eggshell: "hsl(30, 54%, 90%)",
 
+LightGrey: "hsl(30, 18%, 87%)", 
+ DarkRaspberry: "hsl(332, 51%, 32%)",
+        White: "hsl(0, 0%, 100%)",
+        RoseWhite: "hsl(330, 100%, 98%)",
+        Eggshell: "hsl(30, 54%, 90%)",
+        LightGrey: "hsl(30, 18%, 87%)",
+        WengeBrown: "hsl(30, 10%, 34%)",
+        DarkCharcoal: "hsl(24, 5%, 18%)",*/
 const Instruction = () => {
   return (
-    <div className="w-full py-5   flex flex-col justify-center items-start border-b-2 border-b-RoseWhite md:pb-20 md:pt-16">
+    <div className="w-full py-5   flex flex-col justify-center items-start border-b-2 border-b-RoseWhite sm:py-8 md:pb-20 md:pt-10 font-outfit">
       <h2 className="font-bold text-3xl py-4 text-Nutmeg font-young md:text-4xl xl:text-5xl">
         Instructions
       </h2>
-      <ol className="list-decimal px-4  prepListItem2 md:text-xl xl:text-2xl">
+      <ol className="list-decimal px-4 text-WengeBrown  prepListItem2 md:text-xl xl:text-2xl">
         <li className="mt-4">
           <b className="md:text-xl xl:text-2xl"> Beat the eggs: </b>In a bowl,
           beat the eggs with a pinch of salt and pepper until they are well
