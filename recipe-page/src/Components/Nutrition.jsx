@@ -12,19 +12,19 @@ const Nutrition = () => {
         additional fillings.
       </p>
       <div className="flex flex-col justify-between items-center w-full  ">
-        <div className="flex justify-between items-center w-full pr-32 border-b-2 border-b-LightGrey h-16 md:my-8  md:pr-56">
+        <div className="flex justify-between items-center w-full pr-24 border-b-2 border-b-LightGrey h-16 md:my-8  md:pr-56">
           <p className="text-lg pl-5 md:text-xl xl:text-2xl">Calories</p>{" "}
           <b className="text-Nutmeg text-xl  md:text-2xl">277kcal</b>
         </div>
-        <div className="flex justify-between items-center w-full pr-32 border-b-2 border-b-LightGrey h-16 md:my-8  md:pr-56">
+        <div className="flex justify-between items-center w-full pr-24 border-b-2 border-b-LightGrey h-16 md:my-8  md:pr-56">
           <p className="text-lg pl-5 md:text-xl xl:text-2xl">Carbs</p>{" "}
           <b className="text-Nutmeg text-xl  md:text-2xl">0g</b>
         </div>
-        <div className="flex justify-between items-center w-full pr-32 border-b-2 border-b-LightGrey h-16 md:my-8  md:pr-56">
+        <div className="flex justify-between items-center w-full pr-24 border-b-2 border-b-LightGrey h-16 md:my-8  md:pr-56">
           <p className="text-lg pl-5 md:text-xl xl:text-2xl">Protein</p>{" "}
           <b className="text-Nutmeg text-xl  md:text-2xl">20g</b>
         </div>
-        <div className="flex justify-between items-center w-full pr-32 border-b-2 border-b-LightGrey h-16 md:my-8  md:pr-56">
+        <div className="flex justify-between items-center w-full pr-24 border-b-2 border-b-LightGrey h-16 md:my-8  md:pr-56">
           <p className="text-lg pl-5 md:text-xl xl:text-2xl">Fat</p>{" "}
           <b className="text-Nutmeg text-xl  md:text-2xl">22g</b>
         </div>
